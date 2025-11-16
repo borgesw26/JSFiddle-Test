@@ -1,0 +1,80 @@
+# -------------------------------------
+# OS FILES (WINDOWS)
+# -------------------------------------
+Thumbs.db
+Thumbs.db:encryptable
+Desktop.ini
+$RECYCLE.BIN/
+
+# -------------------------------------
+# NODE / PACKAGE MANAGERS (if used)
+# -------------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# -------------------------------------
+# ENV FILES (credentials, API keys)
+# -------------------------------------
+.env
+.env.*
+*.env
+
+# -------------------------------------
+# BUILD / DIST OUTPUT
+# -------------------------------------
+dist/
+build/
+out/
+tmp/
+temp/
+
+# -------------------------------------
+# BUNDLER / TOOLING OUTPUT (optional)
+# -------------------------------------
+.cache/
+.eslintcache
+.stylelintcache
+vite.config.js.timestamp*
+parcel-cache/
+webpack-stats.json
+
+# -------------------------------------
+# IDE / EDITOR FILES
+# -------------------------------------
+# VS Code
+.vscode/
+.vscode/*
+
+# Cursor / Code Editors
+.cursor/
+
+# JetBrains IDEs
+.idea/
+*.iml
+
+# -------------------------------------
+# LOGS & REPORTS
+# -------------------------------------
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log
+
+# -------------------------------------
+# MISC
+# -------------------------------------
+.DS_Store
+*.tmp
+*.swp
+*.bak
+*.orig
+*.tmp
+*.cache
